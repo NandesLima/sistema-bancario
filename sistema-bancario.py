@@ -1,8 +1,9 @@
 # Sistema bancário v.1
 
+# Parte 01 - Importações
 from os import system
 
-# Estruturas de texto
+# Parte 02 - Estruturas de texto
 menu = '''
 ---------------------------------
 
@@ -62,7 +63,7 @@ extrato_saque = '''
     Saídas:
 '''
 
-# Declaração de variáveis importantes
+# Parte 03 - Declaração de variáveis importantes
 saldo = 0.0
 limite = 500
 LIMITE_SAQUES = 3
@@ -70,8 +71,9 @@ numero_saques = 0
 validar_extrato = extrato_deposito + extrato_saque
 
 
-# Menu de opções do banco
+# Parte 05 - Sistema do banco
 while True:
+    # Escolher opção
     system('cls')
     opcao = int(input(menu))
 
@@ -113,12 +115,12 @@ while True:
                 if valor == 0 or valor > 500 or valor > saldo:
                     continue
             
-            # Atualização do saldo, extrato e numero de saques
+            # Atualização do saldo, extrato e número de saques
             numero_saques += 1
             saldo -= valor
             extrato_saque += f'\t\tR$ {valor:.2f}\n'
 
-            # Cédulas que vão sair 
+            # Impressão de cédulas 
 
             # Cédulas de 50
             if valor > 50:
