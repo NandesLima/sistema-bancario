@@ -1,10 +1,13 @@
-# Sistem Bancário
+# Sistema Bancário
 
     - Sistema criado com linguagem Python.
 
+| [Código](https://github.com/NandesLima/sistema-bancario/blob/master/sistema-bancario.py) |
+| ---------------------------------------------------------------------------------------- |
+
 ## Divisão do programa
 
-01. Importações
+1. Importações
 
 2. Estruturas de textos utilizadas dentro do programa
 
