@@ -70,7 +70,7 @@ LIMITE_SAQUES = 3
 numero_saques = 0
 validar_extrato = extrato_deposito + extrato_saque
 limpar = 'clear'
-pausar = 'read -p "Precione uma tecla para continuar..."'
+pausar = 'read -p "Precione ENTER para continuar..."'
 
 
 # Parte 05 - Sistema do banco
